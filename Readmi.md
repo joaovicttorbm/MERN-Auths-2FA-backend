@@ -131,9 +131,9 @@ A API está organizada em módulos e utiliza autenticação via JWT. As rotas pr
 
 ### Fluxo de Autenticação
 
-1. **Registro de usuário**: Envia uma requisição `POST /auth/register` com os dados do usuário.
+<!-- 1. **Registro de usuário**: Envia uma requisição `POST /auth/register` com os dados do usuário.
 2. **Login de usuário**: Envia uma requisição `POST /auth/login` para obter um token JWT.
-3. **Proteção de rotas**: Use o token JWT nas requisições para acessar rotas protegidas, passando-o no cabeçalho `Authorization`.
+3. **Proteção de rotas**: Use o token JWT nas requisições para acessar rotas protegidas, passando-o no cabeçalho `Authorization`. -->
 
 ## Estrutura do Projeto
 
