@@ -12,9 +12,14 @@ import passport from "./middlewares/passport";
 import sessionRoutes from "./modules/session/session.routes";
 import { authenticateJWT } from "./common/strategies/jwt.strategy";
 import mfaRoutes from "./modules/mfa/mfa.routes";
+import { setupSwagger } from "./config/swagger.config";
 
 const app = express();
 const BASE_PATH = config.BASE_PATH;
+
+
+// Configuração do Swagger
+setupSwagger(app);
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
