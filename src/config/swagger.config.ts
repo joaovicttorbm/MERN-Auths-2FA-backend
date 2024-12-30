@@ -7,9 +7,9 @@ const swaggerOptions: swaggerJSDoc.Options = {
   swaggerDefinition: {
     openapi: '3.0.0',
     info: {
-      title: 'API de Autenticação e Gestão de Usuários',
+      title: 'API Documentation',
       version: '1.0.0',
-      description: 'Documentação da API de autenticação, usuário, e outras funcionalidades do sistema.',
+      description: 'API for user authentication, sessions, and MFA.',
       contact: {
         name: 'João Matos',
         url: 'https://www.linkedin.com/in/joao-victtor-dev/',
